@@ -1,0 +1,117 @@
+html,
+body {
+    min-width: 290px;
+    color: #080808;
+    background-color: #d2dff7;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+
+#navbar {
+    position: fixed;
+    overflow: hidden;
+    justify-content: left;
+    min-width: 0px;
+    top: 0px;
+    left: 0px;
+    width: 205px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 25, 25, 0.5);
+}
+
+header {
+    justify-content: left;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+#navbar ul {
+    position: fixed;
+    overflow: hidden;
+    height: 88%;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    position: fixed;
+    overflow: hidden;
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#atlassian_cover {
+    position: relative;
+    margin-left: 295px;
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main-doc {
+    position: center;
+    text-align: justify;
+    margin-left: 10px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+section article {
+    color: #84858a;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+section li {
+    margin: 15px 0px 0px 20px;
+}
+
+code {
+    display: block;
+    text-align: center;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #99b6f2;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: silver;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: silver;
+    }
+}
